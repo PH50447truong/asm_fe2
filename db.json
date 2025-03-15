@@ -1,49 +1,99 @@
 {
   "products": [
     {
-      "name": "Trà sữa truyền thốngggggggggggggg",
-      "desc": "Trà sữa hương vị truyền thống, thơm béo, kết hợp với trân châu mềm dẻo.",
+      "id": 1,
+      "name": "Áo thun nam basic",
+      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
+      "desc": "Áo thun cotton 100% thoáng mát.",
       "price": 35000,
       "stock_quantity": 5,
       "category": "áo",
       "size": [
-        "xl",
-        "xxl"
+        "S, ",
+        "M, ",
+        "L, ",
+        "XL"
       ],
       "color": [
-        "den",
-        "đỏ"
-      ],
-      "image": "https://trasuadodo.vn/wp-content/uploads/2022/09/kinh-doanh-tra-sua-online-01-min.png",
-      "id": 1
+        "Đen, ",
+        "Đỏ"
+      ]
     },
     {
       "id": 2,
-      "name": "Trà sữa matcha",
-      "price": 40000,
-      "image": "https://trasuadodo.vn/wp-content/uploads/2022/09/kinh-doanh-tra-sua-online-01-min.png",
-      "desc": "Trà sữa vị matcha thơm lừng, đậm đà, kết hợp với thạch matcha tươi."
+      "name": "Áo thun nam basic",
+      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
+      "desc": "Áo thun cotton 100% thoáng mát.",
+      "price": 35000,
+      "stock_quantity": 5,
+      "category": "áo",
+      "size": [
+        "S, ",
+        "M, ",
+        "L, ",
+        "XL"
+      ],
+      "color": [
+        "Đen, ",
+        "Đỏ"
+      ]
     },
     {
       "id": 3,
-      "name": "Trà sữa socola",
-      "price": 38000,
-      "image": "https://trasuadodo.vn/wp-content/uploads/2022/09/kinh-doanh-tra-sua-online-01-min.png",
-      "desc": "Trà sữa socola ngọt ngào, kết hợp cùng trân châu trắng giòn dai."
+      "name": "Áo thun nam basic",
+      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
+      "desc": "Áo thun cotton 100% thoáng mát.",
+      "price": 35000,
+      "stock_quantity": 5,
+      "category": "áo",
+      "size": [
+        "S, ",
+        "M, ",
+        "L, ",
+        "XL"
+      ],
+      "color": [
+        "Đen, ",
+        "Đỏ"
+      ]
     },
     {
       "id": 4,
-      "name": "Trà đào cam sả",
-      "price": 45000,
-      "image": "https://trasuadodo.vn/wp-content/uploads/2022/09/kinh-doanh-tra-sua-online-01-min.png",
-      "desc": "Hương vị trà đào tươi mát, kết hợp cùng cam sả thơm lừng."
+      "name": "Áo thun nam basic",
+      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
+      "desc": "Áo thun cotton 100% thoáng mát.",
+      "price": 35000,
+      "stock_quantity": 5,
+      "category": "áo",
+      "size": [
+        "S, ",
+        "M, ",
+        "L, ",
+        "XL"
+      ],
+      "color": [
+        "Đen, ",
+        "Đỏ"
+      ]
     },
     {
       "id": 5,
-      "name": "Trà chanh mật ong",
-      "price": 30000,
-      "image": "https://trasuadodo.vn/wp-content/uploads/2022/09/kinh-doanh-tra-sua-online-01-min.png",
-      "desc": "Trà chanh thanh mát, hòa quyện cùng mật ong thiên nhiên."
+      "name": "Áo thun nam basic",
+      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
+      "desc": "Áo thun cotton 100% thoáng mát.",
+      "price": 35000,
+      "stock_quantity": 5,
+      "category": "áo",
+      "size": [
+        "S, ",
+        "M, ",
+        "L, ",
+        "XL"
+      ],
+      "color": [
+        "Đen, ",
+        "Đỏ"
+      ]
     }
   ],
   "users": []

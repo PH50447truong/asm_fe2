@@ -35,9 +35,19 @@ function ProductList() {
   // Cấu hình cột bảng
   const columns = [
     {
+      title: "Id",
+      dataIndex: "id",
+      key: "id",
+    },
+    {
       title: "Tên",
       dataIndex: "name",
       key: "name",
+    },
+    {
+      title: "Mô tả",
+      dataIndex: "desc",
+      key: "desc",
     },
     {
       title: "Giá (VND)",
@@ -45,15 +55,25 @@ function ProductList() {
       key: "price",
     },
     {
+      title: "Số lượng tồn kho",
+      dataIndex: "stock_quantity",
+      key: "stock_quantity",
+    },
+    {
+      title: "Size",
+      dataIndex: "size",
+      key: "size",
+    },
+    {
+      title: "Màu",
+      dataIndex: "color",
+      key: "color",
+    },
+    {
       title: "Hình ảnh",
       dataIndex: "image",
       key: "image",
       render: (image: string) => <Image src={image} width={100} />,
-    },
-    {
-      title: "Mô tả",
-      dataIndex: "desc",
-      key: "desc",
     },
     {
       title: "Hành động",
