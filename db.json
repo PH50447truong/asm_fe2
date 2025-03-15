@@ -1,11 +1,21 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Trà sữa truyền thống",
+      "name": "Trà sữa truyền thốngggggggggggggg",
+      "desc": "Trà sữa hương vị truyền thống, thơm béo, kết hợp với trân châu mềm dẻo.",
       "price": 35000,
+      "stock_quantity": 5,
+      "category": "áo",
+      "size": [
+        "xl",
+        "xxl"
+      ],
+      "color": [
+        "den",
+        "đỏ"
+      ],
       "image": "https://trasuadodo.vn/wp-content/uploads/2022/09/kinh-doanh-tra-sua-online-01-min.png",
-      "desc": "Trà sữa hương vị truyền thống, thơm béo, kết hợp với trân châu mềm dẻo."
+      "id": 1
     },
     {
       "id": 2,
