@@ -45,6 +45,12 @@ function ProductList() {
       key: "name",
     },
     {
+      title: "Hình ảnh",
+      dataIndex: "image",
+      key: "image",
+      render: (image: string) => <Image src={image} width={100} />,
+    },
+    {
       title: "Mô tả",
       dataIndex: "desc",
       key: "desc",
@@ -53,11 +59,6 @@ function ProductList() {
       title: "Giá (VND)",
       dataIndex: "price",
       key: "price",
-    },
-    {
-      title: "Số lượng tồn kho",
-      dataIndex: "stock_quantity",
-      key: "stock_quantity",
     },
     {
       title: "Size",
@@ -70,10 +71,9 @@ function ProductList() {
       key: "color",
     },
     {
-      title: "Hình ảnh",
-      dataIndex: "image",
-      key: "image",
-      render: (image: string) => <Image src={image} width={100} />,
+      title: "Số lượng tồn kho",
+      dataIndex: "stock_quantity",
+      key: "stock_quantity",
     },
     {
       title: "Hành động",
