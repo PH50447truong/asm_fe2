@@ -1,100 +1,719 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Áo thun nam basic",
-      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
-      "desc": "Áo thun cotton 100% thoáng mát.",
-      "price": 35000,
-      "stock_quantity": 5,
-      "category": "áo",
-      "size": [
-        "S, ",
-        "M, ",
-        "L, ",
-        "XL"
+      "name": "Sản phẩm A",
+      "price": 320000,
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+      "description": "Mô tả sản phẩm A",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
       ],
-      "color": [
-        "Đen, ",
-        "Đỏ"
-      ]
+      "stock": {
+        "S": 5,
+        "M": 7,
+        "L": 6,
+        "XL": 2222,
+        "XXL": 222
+      },
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "XL",
+          "length": "75cm",
+          "width": "55cm"
+        },
+        {
+          "size": "XXL",
+          "length": "80cm",
+          "width": "60cm"
+        }
+      ],
+      "id": 1
     },
     {
       "id": 2,
-      "name": "Áo thun nam basic",
-      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
-      "desc": "Áo thun cotton 100% thoáng mát.",
-      "price": 35000,
-      "stock_quantity": 5,
-      "category": "áo",
-      "size": [
-        "S, ",
-        "M, ",
-        "L, ",
+      "name": "Sản phẩm B",
+      "price": 450000,
+      "image": "https://images.pexels.com/photos/1806941/pexels-photo-1806941.jpeg",
+      "description": "Áo polo unisex người lớn",
+      "sizes": [
+        "M",
+        "L",
         "XL"
       ],
-      "color": [
-        "Đen, ",
-        "Đỏ"
-      ]
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "XL",
+          "length": "75cm",
+          "width": "55cm"
+        }
+      ],
+      "stock": {
+        "M": 10,
+        "L": 6,
+        "XL": 4
+      }
+    },
+    {
+      "name": "Sản phẩm C",
+      "price": 280000,
+      "image": "https://images.pexels.com/photos/1904769/pexels-photo-1904769.jpeg",
+      "description": "Áo polo unisex người lớn",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "stock": {
+        "S": 8,
+        "M": 5,
+        "L": 9
+      },
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "id": 1,
+      "name": "Sản phẩm A",
+      "price": 320000,
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+      "description": "Mô tả sản phẩm A",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        }
+      ],
+      "stock": {
+        "S": 5,
+        "M": 7,
+        "L": 3
+      }
+    },
+    {
+      "id": 2,
+      "name": "Sản phẩm B",
+      "price": 450000,
+      "image": "https://images.pexels.com/photos/1806941/pexels-photo-1806941.jpeg",
+      "description": "Áo polo unisex người lớn",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "XL",
+          "length": "75cm",
+          "width": "55cm"
+        }
+      ],
+      "stock": {
+        "M": 10,
+        "L": 6,
+        "XL": 4
+      }
     },
     {
       "id": 3,
-      "name": "Áo thun nam basic",
-      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
-      "desc": "Áo thun cotton 100% thoáng mát.",
-      "price": 35000,
-      "stock_quantity": 5,
-      "category": "áo",
-      "size": [
-        "S, ",
-        "M, ",
-        "L, ",
+      "name": "Sản phẩm C",
+      "price": 280000,
+      "image": "https://images.pexels.com/photos/1904769/pexels-photo-1904769.jpeg",
+      "description": "Áo polo unisex người lớn",
+      "sizes": [
+        "S",
+        "M"
+      ],
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        }
+      ],
+      "stock": {
+        "S": 8,
+        "M": 5
+      }
+    },
+    {
+      "id": 1,
+      "name": "Sản phẩm A",
+      "price": 320000,
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+      "description": "Mô tả sản phẩm A",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        }
+      ],
+      "stock": {
+        "S": 5,
+        "M": 7,
+        "L": 3
+      }
+    },
+    {
+      "id": 2,
+      "name": "Sản phẩm B",
+      "price": 450000,
+      "image": "https://images.pexels.com/photos/1806941/pexels-photo-1806941.jpeg",
+      "description": "Áo polo unisex người lớn",
+      "sizes": [
+        "M",
+        "L",
         "XL"
       ],
-      "color": [
-        "Đen, ",
-        "Đỏ"
-      ]
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "XL",
+          "length": "75cm",
+          "width": "55cm"
+        }
+      ],
+      "stock": {
+        "M": 10,
+        "L": 6,
+        "XL": 4
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sản phẩm C",
+      "price": 280000,
+      "image": "https://images.pexels.com/photos/1904769/pexels-photo-1904769.jpeg",
+      "description": "Áo polo unisex người lớn",
+      "sizes": [
+        "S",
+        "M"
+      ],
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        }
+      ],
+      "stock": {
+        "S": 8,
+        "M": 5
+      }
+    },
+    {
+      "id": 1,
+      "name": "Sản phẩm A",
+      "price": 320000,
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+      "description": "Mô tả sản phẩm A",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        }
+      ],
+      "stock": {
+        "S": 5,
+        "M": 7,
+        "L": 3
+      }
+    },
+    {
+      "id": 2,
+      "name": "Sản phẩm B",
+      "price": 450000,
+      "image": "https://images.pexels.com/photos/1806941/pexels-photo-1806941.jpeg",
+      "description": "Áo polo unisex người lớn",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "XL",
+          "length": "75cm",
+          "width": "55cm"
+        }
+      ],
+      "stock": {
+        "M": 10,
+        "L": 6,
+        "XL": 4
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sản phẩm C",
+      "price": 280000,
+      "image": "https://images.pexels.com/photos/1904769/pexels-photo-1904769.jpeg",
+      "description": "Áo polo unisex người lớn",
+      "sizes": [
+        "S",
+        "M"
+      ],
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        }
+      ],
+      "stock": {
+        "S": 8,
+        "M": 5
+      }
     },
     {
       "id": 4,
-      "name": "Áo thun nam basic",
-      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
-      "desc": "Áo thun cotton 100% thoáng mát.",
-      "price": 35000,
-      "stock_quantity": 5,
-      "category": "áo",
-      "size": [
-        "S, ",
-        "M, ",
-        "L, ",
-        "XL"
+      "name": "Sản phẩm D",
+      "price": 500000,
+      "image": "https://images.pexels.com/photos/2084115/pexels-photo-2084115.jpeg",
+      "description": "Mô tả sản phẩm D",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
       ],
-      "color": [
-        "Đen, ",
-        "Đỏ"
-      ]
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "XL",
+          "length": "75cm",
+          "width": "55cm"
+        },
+        {
+          "size": "XXL",
+          "length": "80cm",
+          "width": "60cm"
+        }
+      ],
+      "stock": {
+        "M": 12,
+        "L": 9,
+        "XL": 7,
+        "XXL": 3
+      }
     },
     {
-      "id": 5,
-      "name": "Áo thun nam basic",
-      "image": "https://image.hm.com/assets/hm/f8/e7/f8e78baf1d6f2c182748c1138afbca4e88e54052.jpg?imwidth=657",
-      "desc": "Áo thun cotton 100% thoáng mát.",
-      "price": 35000,
-      "stock_quantity": 5,
-      "category": "áo",
-      "size": [
-        "S, ",
-        "M, ",
-        "L, ",
-        "XL"
+      "name": "Ngô Văn Trường",
+      "price": 2,
+      "id": 5
+    },
+    {
+      "name": "Ngô Văn Trường",
+      "price": 4,
+      "image": "https://th.bing.com/th/id/OIP.0aRNPSLCUEDCPjyepOPwhAHaEK?rs=1&pid=ImgDetMain",
+      "description": "âsdasd",
+      "sizes": [
+        "M",
+        "L",
+        "S"
       ],
-      "color": [
-        "Đen, ",
-        "Đỏ"
-      ]
+      "stock": {
+        "M": 0,
+        "L": 0,
+        "S": 0
+      },
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Ngô Văn Trường",
+      "price": 4,
+      "image": "https://th.bing.com/th/id/OIP.0aRNPSLCUEDCPjyepOPwhAHaEK?rs=1&pid=ImgDetMain",
+      "description": "assssssssssssssssssssssssssssssssssssssss",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "stock": {
+        "XXL": 0,
+        "XL": 0,
+        "L": 0,
+        "M": 0,
+        "S": 0
+      },
+      "sizeChart": [
+        {
+          "size": "XXL",
+          "length": "80cm",
+          "width": "60cm"
+        },
+        {
+          "size": "XL",
+          "length": "75cm",
+          "width": "55cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Ngô Văn Trường",
+      "price": 10,
+      "image": "https://th.bing.com/th/id/OIP.0aRNPSLCUEDCPjyepOPwhAHaEK?rs=1&pid=ImgDetMain",
+      "description": "ádasda",
+      "sizes": [
+        "M",
+        "S",
+        "L"
+      ],
+      "stock": {
+        "M": 0,
+        "S": 0,
+        "L": 0
+      },
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "Ngô Văn Trường",
+      "price": 10,
+      "image": "https://th.bing.com/th/id/OIP.0aRNPSLCUEDCPjyepOPwhAHaEK?rs=1&pid=ImgDetMain",
+      "description": "111111111111111111",
+      "sizes": [
+        "L"
+      ],
+      "stock": {
+        "L": 0
+      },
+      "sizeChart": [
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "name": "Ngô Văn Trường",
+      "price": 10,
+      "image": "https://th.bing.com/th/id/OIP.0aRNPSLCUEDCPjyepOPwhAHaEK?rs=1&pid=ImgDetMain",
+      "description": "âsasas",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "stock": {
+        "S": 0,
+        "M": 0,
+        "L": 0,
+        "XL": 0,
+        "XXL": 0
+      },
+      "sizeChart": [
+        {
+          "size": "S",
+          "length": "60cm",
+          "width": "40cm"
+        },
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        },
+        {
+          "size": "XL",
+          "length": "75cm",
+          "width": "55cm"
+        },
+        {
+          "size": "XXL",
+          "length": "80cm",
+          "width": "60cm"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "name": "Ngô Văn Trường",
+      "price": 10,
+      "image": "https://th.bing.com/th/id/OIP.0aRNPSLCUEDCPjyepOPwhAHaEK?rs=1&pid=ImgDetMain",
+      "description": "sdfsd",
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "stock": {
+        "M": 2,
+        "L": 3
+      },
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        },
+        {
+          "size": "L",
+          "length": "70cm",
+          "width": "50cm"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "name": "ádadasd",
+      "price": 121231,
+      "image": "ZXZXx",
+      "description": "adasdasdasd",
+      "sizes": [
+        "M"
+      ],
+      "stock": {
+        "M": 9
+      },
+      "sizeChart": [
+        {
+          "size": "M",
+          "length": "65cm",
+          "width": "45cm"
+        }
+      ],
+      "id": 12
     }
   ],
-  "users": []
+  "categories": [
+    {
+      "id": 1,
+      "name": "Áo Thun"
+    },
+    {
+      "id": 2,
+      "name": "Áo Polo"
+    },
+    {
+      "id": 3,
+      "name": "Quần Jean"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "truongnvph50447@gmail.com",
+      "password": "$2a$10$uDKYtJmUFsaWYyz.4renmOGVJDwyKpZQ4vkzoqJ54UjBVoXWJiMd2"
+    },
+    {
+      "email": "truong@gmail.com",
+      "password": "$2a$10$BJ.RVkUROg2iZKZItlMGueXIEaNzVcGgspkzQkGOv7a8sF5otZhgW",
+      "confirmPassword": "truong123456",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "minhlvph49680@gmail.com",
+      "password": "123456789",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "orders": [
+    
+  ]
 }
